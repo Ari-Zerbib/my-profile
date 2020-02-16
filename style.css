@@ -1,0 +1,112 @@
+body {
+  background-color: #fdfffc;
+  font-family: 'Montserrat Alternates', sans-serif;
+  line-height: 1.6;
+}
+
+h2 {
+  color: #0e2b00;
+}
+
+h1 {
+  color: #0e2b00;
+  font
+}
+
+p {
+  color: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+.container {
+	width: 556px;
+	margin: 50px auto;
+}
+
+@media (max-width: 960px) {
+
+ .container {
+   width: 700px;
+ }
+}
+
+@media (max-width: 720px) {
+
+ .container {
+   width: 500px;
+ }
+}
+
+@media (max-width: 540px) {
+
+.container {
+  width: 300px;
+}
+}
+
+.card-blanc {
+   margin-bottom: 40px;
+   background: #ffffff;                         
+   padding: 30px;                             
+   border-radius: 4.5px;                        
+   box-shadow: 0 10px 30px rgba(0,0,0,.1);
+   text-align: center;
+}
+
+.image-rond {
+  border-radius: 50%;
+  border: solid 2px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 200px;
+}
+
+.image-carre {
+  border-radius: 4px;
+  box-shadow: 0 10px 30px rgba(0,0,0,.1);
+  width: 200px;
+}
+
+.bouton-vert { 
+  color: white;
+  padding: 13px 16px;
+  border-radius: 4px;
+  margin-bottom: 0px;
+  background: #0e2b00;
+  margin-top:30px;
+}
+
+.bouton-vert:hover {
+  transition: background-color 1.5s ease;
+  background-color: #8cd669;
+  color: white;
+}
+
+#emoji-gros {
+  font-size: 50px;
+  text-align: center;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin-top: 30px;
+}
+
+.list-inline li {
+  display: inline;
+  padding: 20px;
+}
+
+.list-inline i {
+  color: #0e2b00;
+  font-size: 30px;
+}
+
+.list-inline i:hover {
+  color: #8cd669;
+}
+
